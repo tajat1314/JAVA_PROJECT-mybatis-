@@ -1,0 +1,9 @@
+package sample.spring.yse;
+
+import com.sun.javafx.collections.MappingChange.Map;
+
+public interface BookService {
+
+	String create(Map<String, Object> map);
+
+}
